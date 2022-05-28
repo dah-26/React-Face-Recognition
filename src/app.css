@@ -1,0 +1,114 @@
+.app {
+  display: flex;
+}
+
+canvas {
+  position: absolute;
+}
+
+.navbar {
+  height: 50px;
+  background-color: #4a4b4e;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: italic;
+  padding: 0px 100px;
+  font-size: 20px;
+}
+
+.newPostCard {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addPost {
+  display: flex;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addImg {
+  width: 50px;
+  cursor: pointer;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+button {
+  border: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(35, 33, 33);
+  background-color: rgb(237, 248, 248);
+  cursor: pointer;
+}
+
+.postInput {
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.container {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.rightInput {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.rightButton {
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+.friendInput {
+  position: absolute;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+}
+
+.friends {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: bold;
+}
